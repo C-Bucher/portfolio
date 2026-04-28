@@ -1,0 +1,54 @@
+# --- Dependências ---
+node_modules/
+.pnp/
+.pnp.js
+dist/
+dist-ssr/
+build/
+*.local
+
+# --- Logs & Performance ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm/
+.eslintcache
+.stylelintcache
+
+# --- Segurança (CRUCIAL) ---
+# Bloqueia qualquer arquivo .env para evitar vazamento de segredos
+.env
+.env.*
+!.env.example # Permite o arquivo de exemplo para documentação
+
+# --- Testes ---
+coverage/
+__snapshots__/
+.nyc_output/
+
+# --- Configurações de IDE/Editores ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json # Opcional: manter se quiser padronizar o time
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Ferramentas Modernas (Bun / Vite) ---
+bun.lockb
+.parcel-cache
+.vite/
+.next/
