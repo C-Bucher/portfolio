@@ -13,13 +13,13 @@ const Contact = () => {
       <div className="max-w-4xl">
         <h2 className="text-3xl md:text-5xl font-bold mb-16 text-white uppercase tracking-widest">Contato</h2>
         <div className="flex flex-col gap-10 text-4xl md:text-6xl font-light">
-          <a href="mailto:caioalexandre.bucher@gmail.com" className="text-white hover:text-gray-500 hover:translate-x-6 transition-all duration-500 w-fit">
+          <a href="mailto:caiodealexandre@gmail.com" className="text-white hover:text-gray-500 hover:translate-x-6 transition-all duration-500 w-fit">
             Email &#8599;
           </a>
           <a href="https://github.com/C-Bucher" target="_blank" rel="noreferrer" className="text-white hover:text-gray-500 hover:translate-x-6 transition-all duration-500 w-fit">
             GitHub / C-Bucher &#8599;
           </a>
-          <a href="#" className="text-white hover:text-gray-500 hover:translate-x-6 transition-all duration-500 w-fit">
+          <a href="https://www.linkedin.com/in/caio-alexandre-0b4970351/" className="text-white hover:text-gray-500 hover:translate-x-6 transition-all duration-500 w-fit">
             LinkedIn &#8599;
           </a>
         </div>
